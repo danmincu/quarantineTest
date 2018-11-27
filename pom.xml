@@ -32,8 +32,14 @@
                 <configuration>
                     <filesets><fileset>
                         <directory>${basedir}/target</directory>
-                        <directory>${basedir}/TestReports/TEST*.xml</directory>
-                    </fileset></filesets>
+                    </fileset>
+                        <fileset>
+                            <directory>${basedir}/TestReports</directory>
+                            <includes>
+                                <include>**/TEST-*.xml</include>
+                            </includes>
+                        </fileset>
+                    </filesets>
                 </configuration>
             </plugin>
         </plugins>
