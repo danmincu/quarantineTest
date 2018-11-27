@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bc440932-de8e-4522-b454-20755cfc60fd" name="Default Changelist" comment="" />
+    <list default="true" id="bc440932-de8e-4522-b454-20755cfc60fd" name="Default Changelist" comment="q tests">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/FooService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FooService.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -46,13 +50,47 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="-1361542463">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="json" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JSON" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="15" />
+          <entry key="json" value="1" />
+          <entry key="txt" value="45" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="15" />
+          <entry key="JSON" value="1" />
+          <entry key="PLAIN_TEXT" value="45" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="353">
+            <state relative-caret-position="442">
               <caret line="26" column="12" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
             </state>
           </provider>
@@ -67,24 +105,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/FooService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
-              <folding>
-                <element signature="e#72#73#0" expanded="true" />
-                <element signature="e#100#101#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="187">
+              <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/FooServiceTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+            <state relative-caret-position="442">
+              <caret line="26" column="28" lean-forward="true" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -93,13 +127,12 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/target/surefire-reports/TEST-FooServiceTests.xml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/target/surefire-reports/FooServiceTests.txt">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/src/test/java/quarantined-tests.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -111,14 +144,18 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/main.java" />
-        <option value="$PROJECT_DIR$/src/main/java/FooService.java" />
         <option value="$PROJECT_DIR$/src/main/java/Program.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/quarantined-tests.json" />
         <option value="$PROJECT_DIR$/src/test/java/FooServiceTests.java" />
+        <option value="$PROJECT_DIR$/src/main/java/FooService.java" />
       </list>
     </option>
   </component>
@@ -139,18 +176,60 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="157" />
-    <option name="y" value="49" />
+    <option name="x" value="341" />
+    <option name="y" value="113" />
     <option name="width" value="1556" />
     <option name="height" value="1053" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="quarantineTest" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="quarantineTest" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+            <path>
+              <item name="quarantineTest" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="quarantineTest" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="quarantineTest" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="quarantineTest" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="quarantineTest" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="quarantineTest" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="quarantineTest" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="quarantineTest" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="quarantineTest" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="quarantineTest" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -224,7 +303,8 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542900597403" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543335730032" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -250,9 +330,11 @@
       </method>
     </configuration>
     <configuration name="FooServiceTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="quaratineTests" />
+      <module name="quarantineTest" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="FooServiceTests" />
+      <option name="METHOD_NAME" value="" />
+      <option name="PARAMETERS" value="" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -279,83 +361,118 @@
       <option name="presentableId" value="Default" />
       <updated>1542824833259</updated>
     </task>
+    <task id="LOCAL-00001" summary="q tests">
+      <created>1543292460065</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1543292460065</updated>
+    </task>
+    <task id="LOCAL-00002" summary="add a test">
+      <created>1543292659818</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1543292659818</updated>
+    </task>
+    <task id="LOCAL-00003" summary="fix build">
+      <created>1543292747294</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1543292747294</updated>
+    </task>
+    <task id="LOCAL-00004" summary="make tests pass">
+      <created>1543335614248</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1543335614248</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FooServiceTests - 2018.11.21 at 13h 36m 55s.xml">
+    <history-entry file="FooServiceTests - 2018.11.27 at 11h 21m 30s.xml">
       <configuration name="FooServiceTests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FooServiceTests - 2018.11.21 at 13h 37m 08s.xml">
+    <history-entry file="FooServiceTests - 2018.11.27 at 11h 21m 32s.xml">
       <configuration name="FooServiceTests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FooServiceTests - 2018.11.21 at 13h 37m 11s.xml">
+    <history-entry file="FooServiceTests - 2018.11.27 at 11h 21m 34s.xml">
       <configuration name="FooServiceTests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FooServiceTests - 2018.11.21 at 13h 37m 14s.xml">
+    <history-entry file="FooServiceTests - 2018.11.27 at 11h 21m 36s.xml">
       <configuration name="FooServiceTests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FooServiceTests - 2018.11.21 at 13h 37m 17s.xml">
+    <history-entry file="FooServiceTests - 2018.11.27 at 11h 21m 38s.xml">
       <configuration name="FooServiceTests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FooServiceTests - 2018.11.21 at 13h 38m 10s.xml">
+    <history-entry file="FooServiceTests - 2018.11.27 at 11h 21m 40s.xml">
       <configuration name="FooServiceTests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FooServiceTests - 2018.11.21 at 13h 39m 33s.xml">
+    <history-entry file="FooServiceTests - 2018.11.27 at 11h 21m 42s.xml">
       <configuration name="FooServiceTests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FooServiceTests - 2018.11.21 at 13h 39m 40s.xml">
+    <history-entry file="FooServiceTests - 2018.11.27 at 11h 21m 44s.xml">
       <configuration name="FooServiceTests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FooServiceTests - 2018.11.21 at 14h 14m 58s.xml">
+    <history-entry file="FooServiceTests - 2018.11.27 at 11h 21m 46s.xml">
       <configuration name="FooServiceTests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FooServiceTests - 2018.11.21 at 14h 21m 29s.xml">
+    <history-entry file="FooServiceTests - 2018.11.27 at 11h 22m 08s.xml">
       <configuration name="FooServiceTests" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="157" y="49" width="1556" height="1053" extended-state="0" />
+    <frame x="341" y="113" width="1556" height="1053" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17312834" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17713904" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.25136018" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.73285717" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.5070729" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Maven Projects" visible="true" weight="0.35026738" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.25136018" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.3297062" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3297062" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Maven Projects" order="7" visible="true" weight="0.35026738" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="q tests" />
+    <MESSAGE value="add a test" />
+    <MESSAGE value="fix build" />
+    <MESSAGE value="make tests pass" />
+    <option name="LAST_COMMIT_MESSAGE" value="make tests pass" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/FooService.java">
+    <entry file="file://$PROJECT_DIR$/target/surefire-reports/TEST-FooServiceTests.xml" />
+    <entry file="file://$PROJECT_DIR$/target/surefire-reports/FooServiceTests.txt" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="e#72#73#0" expanded="true" />
-            <element signature="e#100#101#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="442">
+          <caret line="26" column="12" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
         </state>
       </provider>
     </entry>
@@ -366,26 +483,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/test/java/quarantined-tests.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="26" column="12" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
+        <state relative-caret-position="136">
+          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/target/surefire-reports/TEST-FooServiceTests.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/surefire-reports/FooServiceTests.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/FooServiceTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+        <state relative-caret-position="442">
+          <caret line="26" column="28" lean-forward="true" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/FooService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
         </state>
       </provider>
     </entry>
