@@ -12,6 +12,6 @@ public class FooService {
         Random r = new Random();
 
         //this a random failing test - it should be quarantined
-        return a + b ;//+ r.nextInt(2);
+        return a + b + r.nextInt(2);
     }
 }

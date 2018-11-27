@@ -17,7 +17,7 @@ public class FooServiceTests {
         FooService subject = new FooService(); // MyClass is tested
 
         // assert statements
-        assertEquals(3, subject.addFooFoos(1, 2));
+        assertEquals(30, subject.addFooFoos(1, 2));
     }
 
     @Test
