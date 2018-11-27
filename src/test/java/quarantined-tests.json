@@ -3,7 +3,7 @@
   "reason": "this test fails all the time."
 },
   {
-    "name": "FooServiceTests.testFooIntermMethod123",
+    "name": "FooServiceTests.testFooIntermMethod",
     "reason": "this test fails intermitently."
   }
 ]
