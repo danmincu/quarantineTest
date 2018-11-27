@@ -21,7 +21,7 @@ public class FooServiceTests {
     }
 
     @Test
-    public void testFooIntermMethod{
+    public void testFooIntermMethod() {
         FooService subject = new FooService(); // MyClass is tested
 
         // assert statements
