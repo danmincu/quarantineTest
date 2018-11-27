@@ -9,7 +9,7 @@ public class FooServiceTests {
         FooService subject = new FooService(); // MyClass is tested
 
         // assert statements
-        assertEquals(21, subject.addFoos(10, 1));
+        assertEquals(11, subject.addFoos(10, 1));
     }
 
     @Test
