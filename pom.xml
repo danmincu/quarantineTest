@@ -31,7 +31,7 @@
                 </goals>
                 <configuration>
                     <filesets><fileset>
-                        <directory>${basedir}/TestReports</directory>
+                        <directory>${basedir}/target</directory>
                     </fileset></filesets>
                 </configuration>
             </plugin>
