@@ -19,4 +19,13 @@ public class FooServiceTests {
         // assert statements
         assertEquals(30, subject.addFooFoos(1, 2));
     }
+
+    @Test
+    public void testFooIntermMethod{
+        FooService subject = new FooService(); // MyClass is tested
+
+        // assert statements
+        assertEquals(30, subject.addFooFoos(1, 2));
+    }
+
 }
